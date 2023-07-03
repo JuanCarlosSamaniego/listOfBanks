@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A7C08B2A4FE4B1000A604E /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C08A2A4FE4B1000A604E /* HomeViewPresenter.swift */; };
+		02A7C08D2A4FE4BF000A604E /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C08C2A4FE4BF000A604E /* HomeViewInteractor.swift */; };
+		02A7C08F2A4FE4CD000A604E /* HomeViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C08E2A4FE4CD000A604E /* HomeViewRouter.swift */; };
+		02A7C0932A4FF330000A604E /* ListOfBanksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C0912A4FF330000A604E /* ListOfBanksCell.swift */; };
+		02A7C0942A4FF330000A604E /* ListOfBanksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A7C0922A4FF330000A604E /* ListOfBanksCell.xib */; };
+		02A7C0972A4FF366000A604E /* HomeViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C0962A4FF366000A604E /* HomeViewProtocols.swift */; };
+		02A7C09A2A509381000A604E /* BanksListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C0982A509381000A604E /* BanksListModel.xcdatamodeld */; };
+		02A7C09F2A51196E000A604E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C09D2A511939000A604E /* CoreDataManager.swift */; };
+		02A7C0A02A511B25000A604E /* ListOfBanksCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C09B2A511939000A604E /* ListOfBanksCoreData+CoreDataClass.swift */; };
+		02A7C0A12A511B28000A604E /* ListOfBanksCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A7C09C2A511939000A604E /* ListOfBanksCoreData+CoreDataProperties.swift */; };
 		02A9289A2A4FD20500E76234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A928992A4FD20500E76234 /* AppDelegate.swift */; };
 		02A9289C2A4FD20500E76234 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9289B2A4FD20500E76234 /* SceneDelegate.swift */; };
 		02A9289E2A4FD20500E76234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A9289D2A4FD20500E76234 /* ViewController.swift */; };
 		02A928A12A4FD20500E76234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A9289F2A4FD20500E76234 /* Main.storyboard */; };
 		02A928A32A4FD20900E76234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A928A22A4FD20900E76234 /* Assets.xcassets */; };
 		02A928A62A4FD20900E76234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A928A42A4FD20900E76234 /* LaunchScreen.storyboard */; };
+		02A928B02A4FD2FD00E76234 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A928AE2A4FD2FD00E76234 /* HomeViewController.swift */; };
+		02A928B12A4FD2FD00E76234 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A928AF2A4FD2FD00E76234 /* HomeViewController.xib */; };
+		02A928B82A4FD96500E76234 /* ListOfBanksEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A928B72A4FD96500E76234 /* ListOfBanksEntity.swift */; };
+		3CEAF2410066F60470460287 /* Pods_BankOFListDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545F5B2ABE86220486D3B3AA /* Pods_BankOFListDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A7C08A2A4FE4B1000A604E /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
+		02A7C08C2A4FE4BF000A604E /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
+		02A7C08E2A4FE4CD000A604E /* HomeViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouter.swift; sourceTree = "<group>"; };
+		02A7C0912A4FF330000A604E /* ListOfBanksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBanksCell.swift; sourceTree = "<group>"; };
+		02A7C0922A4FF330000A604E /* ListOfBanksCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListOfBanksCell.xib; sourceTree = "<group>"; };
+		02A7C0962A4FF366000A604E /* HomeViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocols.swift; sourceTree = "<group>"; };
+		02A7C0992A509381000A604E /* BanksListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BanksListModel.xcdatamodel; sourceTree = "<group>"; };
+		02A7C09B2A511939000A604E /* ListOfBanksCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListOfBanksCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		02A7C09C2A511939000A604E /* ListOfBanksCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListOfBanksCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		02A7C09D2A511939000A604E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		02A928962A4FD20500E76234 /* BankOFListDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankOFListDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A928992A4FD20500E76234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A9289B2A4FD20500E76234 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,12 @@
 		02A928A22A4FD20900E76234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A928A52A4FD20900E76234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02A928A72A4FD20900E76234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A928AE2A4FD2FD00E76234 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		02A928AF2A4FD2FD00E76234 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		02A928B72A4FD96500E76234 /* ListOfBanksEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBanksEntity.swift; sourceTree = "<group>"; };
+		545F5B2ABE86220486D3B3AA /* Pods_BankOFListDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankOFListDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22207A14E94A2B9B9C8D7CC /* Pods-BankOFListDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankOFListDemoApp.release.xcconfig"; path = "Target Support Files/Pods-BankOFListDemoApp/Pods-BankOFListDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		E93923482BDBB692B262F222 /* Pods-BankOFListDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankOFListDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-BankOFListDemoApp/Pods-BankOFListDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEAF2410066F60470460287 /* Pods_BankOFListDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A7C0902A4FF30F000A604E /* BankCell */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C0912A4FF330000A604E /* ListOfBanksCell.swift */,
+				02A7C0922A4FF330000A604E /* ListOfBanksCell.xib */,
+			);
+			path = BankCell;
+			sourceTree = "<group>";
+		};
+		02A7C0952A4FF33D000A604E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C0962A4FF366000A604E /* HomeViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		02A7C09E2A511939000A604E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C09B2A511939000A604E /* ListOfBanksCoreData+CoreDataClass.swift */,
+				02A7C09C2A511939000A604E /* ListOfBanksCoreData+CoreDataProperties.swift */,
+				02A7C09D2A511939000A604E /* CoreDataManager.swift */,
+			);
+			name = CoreData;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		02A9288D2A4FD20500E76234 = {
 			isa = PBXGroup;
 			children = (
 				02A928982A4FD20500E76234 /* BankOFListDemoApp */,
 				02A928972A4FD20500E76234 /* Products */,
+				6A102B358D2206D11ED7C4C6 /* Pods */,
+				C112612FF43918BAFDFA69F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +117,90 @@
 		02A928982A4FD20500E76234 /* BankOFListDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				02A928AD2A4FD2D400E76234 /* HomeView */,
 				02A928992A4FD20500E76234 /* AppDelegate.swift */,
 				02A9289B2A4FD20500E76234 /* SceneDelegate.swift */,
 				02A9289D2A4FD20500E76234 /* ViewController.swift */,
 				02A9289F2A4FD20500E76234 /* Main.storyboard */,
 				02A928A22A4FD20900E76234 /* Assets.xcassets */,
+				02A7C09E2A511939000A604E /* CoreData */,
 				02A928A42A4FD20900E76234 /* LaunchScreen.storyboard */,
 				02A928A72A4FD20900E76234 /* Info.plist */,
+				02A7C0982A509381000A604E /* BanksListModel.xcdatamodeld */,
 			);
 			path = BankOFListDemoApp;
+			sourceTree = "<group>";
+		};
+		02A928AD2A4FD2D400E76234 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C0952A4FF33D000A604E /* Protocols */,
+				02A928B62A4FD42E00E76234 /* Router */,
+				02A928B52A4FD42700E76234 /* Entity */,
+				02A928B42A4FD41F00E76234 /* Presenter */,
+				02A928B32A4FD41700E76234 /* Interactor */,
+				02A928B22A4FD40800E76234 /* View */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		02A928B22A4FD40800E76234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C0902A4FF30F000A604E /* BankCell */,
+				02A928AE2A4FD2FD00E76234 /* HomeViewController.swift */,
+				02A928AF2A4FD2FD00E76234 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02A928B32A4FD41700E76234 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C08C2A4FE4BF000A604E /* HomeViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		02A928B42A4FD41F00E76234 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C08A2A4FE4B1000A604E /* HomeViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		02A928B52A4FD42700E76234 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				02A928B72A4FD96500E76234 /* ListOfBanksEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		02A928B62A4FD42E00E76234 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				02A7C08E2A4FE4CD000A604E /* HomeViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6A102B358D2206D11ED7C4C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E93923482BDBB692B262F222 /* Pods-BankOFListDemoApp.debug.xcconfig */,
+				B22207A14E94A2B9B9C8D7CC /* Pods-BankOFListDemoApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C112612FF43918BAFDFA69F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545F5B2ABE86220486D3B3AA /* Pods_BankOFListDemoApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02A928AA2A4FD20900E76234 /* Build configuration list for PBXNativeTarget "BankOFListDemoApp" */;
 			buildPhases = (
+				D8F8B68934D95A882E1C3E37 /* [CP] Check Pods Manifest.lock */,
 				02A928922A4FD20500E76234 /* Sources */,
 				02A928932A4FD20500E76234 /* Frameworks */,
 				02A928942A4FD20500E76234 /* Resources */,
+				1C89E459E5E06C12AA9A206B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +264,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A928A62A4FD20900E76234 /* LaunchScreen.storyboard in Resources */,
+				02A7C0942A4FF330000A604E /* ListOfBanksCell.xib in Resources */,
 				02A928A32A4FD20900E76234 /* Assets.xcassets in Resources */,
 				02A928A12A4FD20500E76234 /* Main.storyboard in Resources */,
+				02A928B12A4FD2FD00E76234 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C89E459E5E06C12AA9A206B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankOFListDemoApp/Pods-BankOFListDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BankOFListDemoApp/Pods-BankOFListDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BankOFListDemoApp/Pods-BankOFListDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F8B68934D95A882E1C3E37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankOFListDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02A928922A4FD20500E76234 /* Sources */ = {
@@ -139,8 +321,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				02A9289E2A4FD20500E76234 /* ViewController.swift in Sources */,
+				02A7C0A12A511B28000A604E /* ListOfBanksCoreData+CoreDataProperties.swift in Sources */,
 				02A9289A2A4FD20500E76234 /* AppDelegate.swift in Sources */,
 				02A9289C2A4FD20500E76234 /* SceneDelegate.swift in Sources */,
+				02A7C08D2A4FE4BF000A604E /* HomeViewInteractor.swift in Sources */,
+				02A7C08F2A4FE4CD000A604E /* HomeViewRouter.swift in Sources */,
+				02A7C0A02A511B25000A604E /* ListOfBanksCoreData+CoreDataClass.swift in Sources */,
+				02A928B82A4FD96500E76234 /* ListOfBanksEntity.swift in Sources */,
+				02A7C09F2A51196E000A604E /* CoreDataManager.swift in Sources */,
+				02A7C08B2A4FE4B1000A604E /* HomeViewPresenter.swift in Sources */,
+				02A7C0932A4FF330000A604E /* ListOfBanksCell.swift in Sources */,
+				02A7C09A2A509381000A604E /* BanksListModel.xcdatamodeld in Sources */,
+				02A928B02A4FD2FD00E76234 /* HomeViewController.swift in Sources */,
+				02A7C0972A4FF366000A604E /* HomeViewProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +475,7 @@
 		};
 		02A928AB2A4FD20900E76234 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93923482BDBB692B262F222 /* Pods-BankOFListDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +505,7 @@
 		};
 		02A928AC2A4FD20900E76234 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22207A14E94A2B9B9C8D7CC /* Pods-BankOFListDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +519,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +555,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02A7C0982A509381000A604E /* BanksListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02A7C0992A509381000A604E /* BanksListModel.xcdatamodel */,
+			);
+			currentVersion = 02A7C0992A509381000A604E /* BanksListModel.xcdatamodel */;
+			path = BanksListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 02A9288E2A4FD20500E76234 /* Project object */;
 }
